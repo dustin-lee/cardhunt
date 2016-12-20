@@ -1,0 +1,554 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3CB1AFFE1E09A843003D43FA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB1AFFD1E09A843003D43FA /* AppDelegate.swift */; };
+		3CB1B0001E09A843003D43FA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB1AFFF1E09A843003D43FA /* ViewController.swift */; };
+		3CB1B0031E09A843003D43FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CB1B0011E09A843003D43FA /* Main.storyboard */; };
+		3CB1B0061E09A843003D43FA /* cupgame2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3CB1B0041E09A843003D43FA /* cupgame2.xcdatamodeld */; };
+		3CB1B0081E09A843003D43FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CB1B0071E09A843003D43FA /* Assets.xcassets */; };
+		3CB1B00B1E09A843003D43FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CB1B0091E09A843003D43FA /* LaunchScreen.storyboard */; };
+		3CB1B0161E09A843003D43FA /* cupgame2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB1B0151E09A843003D43FA /* cupgame2Tests.swift */; };
+		3CB1B0211E09A844003D43FA /* cupgame2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB1B0201E09A844003D43FA /* cupgame2UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3CB1B0121E09A843003D43FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3CB1AFF21E09A843003D43FA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3CB1AFF91E09A843003D43FA;
+			remoteInfo = cupgame2;
+		};
+		3CB1B01D1E09A844003D43FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3CB1AFF21E09A843003D43FA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3CB1AFF91E09A843003D43FA;
+			remoteInfo = cupgame2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3CB1AFFA1E09A843003D43FA /* cupgame2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cupgame2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CB1AFFD1E09A843003D43FA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3CB1AFFF1E09A843003D43FA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3CB1B0021E09A843003D43FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3CB1B0051E09A843003D43FA /* cupgame2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = cupgame2.xcdatamodel; sourceTree = "<group>"; };
+		3CB1B0071E09A843003D43FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3CB1B00A1E09A843003D43FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3CB1B00C1E09A843003D43FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3CB1B0111E09A843003D43FA /* cupgame2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cupgame2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CB1B0151E09A843003D43FA /* cupgame2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cupgame2Tests.swift; sourceTree = "<group>"; };
+		3CB1B0171E09A843003D43FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3CB1B01C1E09A844003D43FA /* cupgame2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cupgame2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CB1B0201E09A844003D43FA /* cupgame2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cupgame2UITests.swift; sourceTree = "<group>"; };
+		3CB1B0221E09A844003D43FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3CB1AFF71E09A843003D43FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CB1B00E1E09A843003D43FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CB1B0191E09A844003D43FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3CB1AFF11E09A843003D43FA = {
+			isa = PBXGroup;
+			children = (
+				3CB1AFFC1E09A843003D43FA /* cupgame2 */,
+				3CB1B0141E09A843003D43FA /* cupgame2Tests */,
+				3CB1B01F1E09A844003D43FA /* cupgame2UITests */,
+				3CB1AFFB1E09A843003D43FA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3CB1AFFB1E09A843003D43FA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3CB1AFFA1E09A843003D43FA /* cupgame2.app */,
+				3CB1B0111E09A843003D43FA /* cupgame2Tests.xctest */,
+				3CB1B01C1E09A844003D43FA /* cupgame2UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3CB1AFFC1E09A843003D43FA /* cupgame2 */ = {
+			isa = PBXGroup;
+			children = (
+				3CB1AFFD1E09A843003D43FA /* AppDelegate.swift */,
+				3CB1AFFF1E09A843003D43FA /* ViewController.swift */,
+				3CB1B0011E09A843003D43FA /* Main.storyboard */,
+				3CB1B0071E09A843003D43FA /* Assets.xcassets */,
+				3CB1B0091E09A843003D43FA /* LaunchScreen.storyboard */,
+				3CB1B00C1E09A843003D43FA /* Info.plist */,
+				3CB1B0041E09A843003D43FA /* cupgame2.xcdatamodeld */,
+			);
+			path = cupgame2;
+			sourceTree = "<group>";
+		};
+		3CB1B0141E09A843003D43FA /* cupgame2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				3CB1B0151E09A843003D43FA /* cupgame2Tests.swift */,
+				3CB1B0171E09A843003D43FA /* Info.plist */,
+			);
+			path = cupgame2Tests;
+			sourceTree = "<group>";
+		};
+		3CB1B01F1E09A844003D43FA /* cupgame2UITests */ = {
+			isa = PBXGroup;
+			children = (
+				3CB1B0201E09A844003D43FA /* cupgame2UITests.swift */,
+				3CB1B0221E09A844003D43FA /* Info.plist */,
+			);
+			path = cupgame2UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3CB1AFF91E09A843003D43FA /* cupgame2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CB1B0251E09A844003D43FA /* Build configuration list for PBXNativeTarget "cupgame2" */;
+			buildPhases = (
+				3CB1AFF61E09A843003D43FA /* Sources */,
+				3CB1AFF71E09A843003D43FA /* Frameworks */,
+				3CB1AFF81E09A843003D43FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = cupgame2;
+			productName = cupgame2;
+			productReference = 3CB1AFFA1E09A843003D43FA /* cupgame2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3CB1B0101E09A843003D43FA /* cupgame2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CB1B0281E09A844003D43FA /* Build configuration list for PBXNativeTarget "cupgame2Tests" */;
+			buildPhases = (
+				3CB1B00D1E09A843003D43FA /* Sources */,
+				3CB1B00E1E09A843003D43FA /* Frameworks */,
+				3CB1B00F1E09A843003D43FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3CB1B0131E09A843003D43FA /* PBXTargetDependency */,
+			);
+			name = cupgame2Tests;
+			productName = cupgame2Tests;
+			productReference = 3CB1B0111E09A843003D43FA /* cupgame2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3CB1B01B1E09A844003D43FA /* cupgame2UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CB1B02B1E09A844003D43FA /* Build configuration list for PBXNativeTarget "cupgame2UITests" */;
+			buildPhases = (
+				3CB1B0181E09A844003D43FA /* Sources */,
+				3CB1B0191E09A844003D43FA /* Frameworks */,
+				3CB1B01A1E09A844003D43FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3CB1B01E1E09A844003D43FA /* PBXTargetDependency */,
+			);
+			name = cupgame2UITests;
+			productName = cupgame2UITests;
+			productReference = 3CB1B01C1E09A844003D43FA /* cupgame2UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3CB1AFF21E09A843003D43FA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Dustin Lee";
+				TargetAttributes = {
+					3CB1AFF91E09A843003D43FA = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = MV6PZQ927Y;
+						ProvisioningStyle = Automatic;
+					};
+					3CB1B0101E09A843003D43FA = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = MV6PZQ927Y;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3CB1AFF91E09A843003D43FA;
+					};
+					3CB1B01B1E09A844003D43FA = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = MV6PZQ927Y;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3CB1AFF91E09A843003D43FA;
+					};
+				};
+			};
+			buildConfigurationList = 3CB1AFF51E09A843003D43FA /* Build configuration list for PBXProject "cupgame2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3CB1AFF11E09A843003D43FA;
+			productRefGroup = 3CB1AFFB1E09A843003D43FA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3CB1AFF91E09A843003D43FA /* cupgame2 */,
+				3CB1B0101E09A843003D43FA /* cupgame2Tests */,
+				3CB1B01B1E09A844003D43FA /* cupgame2UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3CB1AFF81E09A843003D43FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CB1B00B1E09A843003D43FA /* LaunchScreen.storyboard in Resources */,
+				3CB1B0081E09A843003D43FA /* Assets.xcassets in Resources */,
+				3CB1B0031E09A843003D43FA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CB1B00F1E09A843003D43FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CB1B01A1E09A844003D43FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3CB1AFF61E09A843003D43FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CB1B0061E09A843003D43FA /* cupgame2.xcdatamodeld in Sources */,
+				3CB1B0001E09A843003D43FA /* ViewController.swift in Sources */,
+				3CB1AFFE1E09A843003D43FA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CB1B00D1E09A843003D43FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CB1B0161E09A843003D43FA /* cupgame2Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CB1B0181E09A844003D43FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CB1B0211E09A844003D43FA /* cupgame2UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3CB1B0131E09A843003D43FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3CB1AFF91E09A843003D43FA /* cupgame2 */;
+			targetProxy = 3CB1B0121E09A843003D43FA /* PBXContainerItemProxy */;
+		};
+		3CB1B01E1E09A844003D43FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3CB1AFF91E09A843003D43FA /* cupgame2 */;
+			targetProxy = 3CB1B01D1E09A844003D43FA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3CB1B0011E09A843003D43FA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3CB1B0021E09A843003D43FA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3CB1B0091E09A843003D43FA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3CB1B00A1E09A843003D43FA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3CB1B0231E09A844003D43FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3CB1B0241E09A844003D43FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3CB1B0261E09A844003D43FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = MV6PZQ927Y;
+				INFOPLIST_FILE = cupgame2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dustinlee.cupgame2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		3CB1B0271E09A844003D43FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = MV6PZQ927Y;
+				INFOPLIST_FILE = cupgame2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dustinlee.cupgame2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		3CB1B0291E09A844003D43FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = MV6PZQ927Y;
+				INFOPLIST_FILE = cupgame2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dustinlee.cupgame2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cupgame2.app/cupgame2";
+			};
+			name = Debug;
+		};
+		3CB1B02A1E09A844003D43FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = MV6PZQ927Y;
+				INFOPLIST_FILE = cupgame2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dustinlee.cupgame2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cupgame2.app/cupgame2";
+			};
+			name = Release;
+		};
+		3CB1B02C1E09A844003D43FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = MV6PZQ927Y;
+				INFOPLIST_FILE = cupgame2UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dustinlee.cupgame2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = cupgame2;
+			};
+			name = Debug;
+		};
+		3CB1B02D1E09A844003D43FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = MV6PZQ927Y;
+				INFOPLIST_FILE = cupgame2UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dustinlee.cupgame2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = cupgame2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3CB1AFF51E09A843003D43FA /* Build configuration list for PBXProject "cupgame2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CB1B0231E09A844003D43FA /* Debug */,
+				3CB1B0241E09A844003D43FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CB1B0251E09A844003D43FA /* Build configuration list for PBXNativeTarget "cupgame2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CB1B0261E09A844003D43FA /* Debug */,
+				3CB1B0271E09A844003D43FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3CB1B0281E09A844003D43FA /* Build configuration list for PBXNativeTarget "cupgame2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CB1B0291E09A844003D43FA /* Debug */,
+				3CB1B02A1E09A844003D43FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3CB1B02B1E09A844003D43FA /* Build configuration list for PBXNativeTarget "cupgame2UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CB1B02C1E09A844003D43FA /* Debug */,
+				3CB1B02D1E09A844003D43FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3CB1B0041E09A843003D43FA /* cupgame2.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3CB1B0051E09A843003D43FA /* cupgame2.xcdatamodel */,
+			);
+			currentVersion = 3CB1B0051E09A843003D43FA /* cupgame2.xcdatamodel */;
+			path = cupgame2.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 3CB1AFF21E09A843003D43FA /* Project object */;
+}
